@@ -1,8 +1,31 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 20px Arial, sans-serif;
+  text-align: center;
+}
+div {
+ 	box-shadow: 1px 1px 1px;
+	background-color: rgba(0,0,0,.1);
+	width: 600px;
+	margin: auto;
+	padding: 20px;
+}
+
+p#i {
+	font-size: 5px;
 }
 
 a {
   color: #00B7FF;
+}
+p{
+	text-indent: 45px;
+	font-size: 30px;
+	text-align: justify;
+}
+p#author{
+	font-size: 15px;
+	color: rgba(255,0,0,1);
+	text-align: right;
+
 }

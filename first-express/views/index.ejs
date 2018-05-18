@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -5,7 +6,20 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
+  	<div>
+
     <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <p><%= title %> é um "for" de 13 repetições que mostra na tela as repetições.</p>
+    <p>Caso seja a vez 6, será mostrada alguma mensagem ao invés da mensagem original.</p>
+    <p id="i">eu sei que ainda não é muito ;-;</p>
+    <% for(var i=1; i<=13; i++) { %>
+    <% if (i===6){ %>
+    	<p>ESSA AQUI FOI A VEZ NUMERO 6.</br>Mensagem mostrada como dito acima.</p>
+  	<%}else{%>
+  		<p><%= i %> REPETIÇÕES;</p>
+  <%} %>
+  <% } %>
+  <p id="author">Marcus V.</p>
+</div>
   </body>
 </html>
